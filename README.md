@@ -6,4 +6,4 @@ Repository for learning the Django framework.
  2. Check if django is installed with: $ python3 -m django --version
  3. Check admin option with: $ django-admin
  3. Create a project with: $ django-admin startproject _project_name_
- 4. (Inside de project folder) Run server with: $ python3 manage.py runserver
+ 4. (Inside the project folder) Run server with: $ python3 manage.py runserver
