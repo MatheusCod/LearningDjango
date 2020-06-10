@@ -1,7 +1,7 @@
 # LearningDjango
 Repository for learning the Django framework.
 
-Attention: this is not a tutorial, it is just a project for me to test and implement what I learn from tutorials and documentations using the django python framework.
+Attention: this is not a tutorial, it is just a project for me to test and implement what I learn from tutorials and documentations using the django python framework. <br>
 Disclaimer: Currently (July/2020), as you can see, I do not claim to have fluency in English, which means that many English errors can be found in this readme. Sorry for the inconvenience.
 
 ## Version 01:
@@ -18,4 +18,4 @@ Disclaimer: Currently (July/2020), as you can see, I do not claim to have fluenc
  A blog app and a route to the blog app was created in this version.
 
  Routes:
-  The user access "localhost:8000/blog", for example, which goes to urls.py on the main project, where is a url pattern pointing to the _app_name_.urls by using the include('_app_name_.url'). In the _app_name_'s urls.py file there is a pattern with a route that points to the views.py module, which have a function with a _request_ as parameter and a _HttpResponse_ as return of the function.
+  The user access "localhost:8000/blog", for example, which goes to urls.py on the main project, where is a url pattern pointing to the _app_name_.urls by using the include('_app_name_.url'). <br> In the _app_name_'s urls.py file there is a pattern with a route that points to the views.py module, which have a function with a _request_ as parameter and a _HttpResponse_ as return of the function.
