@@ -27,7 +27,7 @@ Primarily, this repository is being build by following this Python Django Tutori
   3. It is possible to write code into the html files used by render. It is something like this:<br>
   <code>
   {% for post in posts %}<br>
-    <h1>{{post.title}}</h1><br>
+    h1 {{post.title}} h1 <br>
   {% endfor %}<br>
   </code>
   post is a dictionary passed as argument in the render function.
