@@ -25,9 +25,9 @@ Primarily, this repository is being build by following this Python Django Tutori
   1. Created a folder called "templates" inside the _app_name_ folder, and inside the new folder was created a folder called _app_name_. This is the way Django works with templates. The _blog_templates.html_ will be inside that last folder.
   2. Add the _app_name_ to the installed apps in settings.py file. Go to the apps.py file inside the _app_name_ folder and copy the only function of that file to the installed apps list in settings.py like this: '_app_name_.apps._functionName_'.
   3. It is possible to write code into the html files used by render. It is something like this:<br>
- "" {% for post in posts %}<br>
+  _{% for post in posts %}<br>
     <h1>{{post.title}}</h1><br>
-  {% endfor %}<br> ""
+  {% endfor %}<br>_
   post is a dictionary passed as argument in the render function.
   4. It is useful to have a base.html file that will hold a base html code that most of the apps pages will expand from it.
   5. Create a foler called _static_ inside the _app_name_'s folder. That folder will contain another folder called _app_name_. Inside this last folder you will put static css files, like a main.css.
