@@ -33,3 +33,6 @@ Primarily, this repository is being build by following this Python Django Tutori
   5. Create a foler called _static_ inside the _app_name_'s folder. That folder will contain another folder called _app_name_. Inside this last folder you will put static css files, like a main.css.
   6. In order to use the static css files, this following code must be included at the base.html file: {% load static %}
   7. Using a url tag in the html are better by passing the routes arguments, and not put directly the link for the page.
+## Version 04:
+  1. In order to use the /admin that django provides, it is necessary to create a database. Before that, it is advisable checks the migrations with <code>python3 manage.py makemigrations</code><br>
+  And after that, run the command <code>python3 manage.py migrate</code>. In the terminal it will be asked for the programmer to create a new user for the admin page. Finally, you can run the django server and login in the /admin page.
